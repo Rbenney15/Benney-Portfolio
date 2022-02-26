@@ -5,16 +5,17 @@ box-sizing: border-box;
 }
 
 :root {
-    --background-color: purple;
+    --background-color: #24135F;
     --font-color: white;
+    --secondary-color: #AD8900;
 }
 
 body {
-    background-color: purple
+    background-color: #24135F
 }
 header {
     padding: 20px 35px;
-    background-color: purple;
+    background-color: #24135F;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -23,13 +24,13 @@ header {
 header h1 {
     font-weight: bold;
     font-size: 40px;
-    color: white;
+    color: #AD8900;
     margin: 0;
 }
 
 header a {
     text-decoration: none;
-    color: white;
+    color: #AD8900;
 }
 
 header nav {
