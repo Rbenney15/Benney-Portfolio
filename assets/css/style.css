@@ -4,15 +4,12 @@ padding: 0;
 box-sizing: border-box;
 }
 
-:root {
-    --background-color: #24135F;
-    --font-color: white;
-    --secondary-color: #AD8900;
+body {
+    background-color: #24135F;
+    color: white;
 }
 
-body {
-    background-color: #24135F
-}
+/* Header styles start */
 header {
     padding: 20px 35px;
     background-color: #24135F;
@@ -50,3 +47,38 @@ header nav ul li a {
     font-weight: lighter;
     font-size: 1.55vw;
 }
+
+/* h2 styles */
+.intro {
+    font-size: 25px;
+    color: #AD8900;
+    font-weight: bold;
+}
+
+/* About me styles */
+
+.intro p {
+    color: white;
+    font-weight: lighter;
+    font-size: 18px;
+}
+
+.img {
+    border-radius: 8px;
+    height: auto;
+    display: flex;
+    width: 200px;
+}
+
+/* Featured work styles */
+
+.second-image {
+    border-radius: 8px;
+    height: auto;
+    display: flex;
+    width: 300px;
+}
+
+/* Contact Me styles */
+
+
