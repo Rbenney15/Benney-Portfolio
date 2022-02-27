@@ -78,10 +78,11 @@ header nav ul li a {
     align-items: center;
 }
 
-.about-me-flexbox {
+.flexbox-aboutme p {
     display: flex;
     flex-wrap: wrap;
-    justify-content: flex-start;
+    flex-direction: column;
+    justify-content: space-between;
     align-items: center;
     color: white;
     font-weight: lighter;
@@ -103,17 +104,18 @@ header nav ul li a {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    font-size: 60px
 }
 
 .container {
     position: relative;
-    width: 300px;
+    width: 800px;
 }
 .second-image {
     border-radius: 8px;
     height: auto;
     display: flex;
-    width: 300px;
+    width: 800px;
 }
   .overlay {
     position: absolute;
@@ -135,7 +137,7 @@ header nav ul li a {
   .text {
     white-space: nowrap; 
     color: #AD8900;
-    font-size: 20px;
+    font-size: 60px;
     position: absolute;
     overflow: hidden;
     top: 50%;
