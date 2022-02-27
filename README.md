@@ -9,11 +9,11 @@ This is my professional portfolio, an opportunity to showcase my skillset as wel
 an ongoing project and will be updated frequently as I progress through the bootcamp and add tools to my tool belt.
 
 ## Features
-Built with HTML and CSS
-Utilizing Flexbox to help with layout adjustment across screen sizes
-Used CSS to style the page, changing font colors and sizing, background colors, overall layout of the page.
+* Built with HTML and CSS
+* Utilizing Flexbox to help with layout adjustment across screen sizes
+* Used CSS to style the page, changing font colors and sizing, background colors, overall layout of the page.
 
 ## Project Links
-https://github.com/Rbenney15/Benney-Portfolio.git
-https://rbenney15.github.io/Benney-Portfolio/
+* https://github.com/Rbenney15/Benney-Portfolio.git
+* https://rbenney15.github.io/Benney-Portfolio/
 
