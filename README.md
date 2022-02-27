@@ -12,5 +12,5 @@ Used CSS to style the page, changing font colors and sizing, background colors, 
 
 ## Project Links
 https://github.com/Rbenney15/Benney-Portfolio.git
-
+https://rbenney15.github.io/Benney-Portfolio/
 
