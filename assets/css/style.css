@@ -69,33 +69,32 @@ header nav ul li a {
 
 /* About me styles */
 
-.intro p {
-    color: white;
-    font-weight: lighter;
-    font-size: 18px;
+.flexbox {
+    width: 100%;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
 }
 
-.flexbox-aboutme p {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
+.flexbox p {
+    padding: 10px 10px 10px 250px;
+    text-align: center;
     color: white;
     font-weight: lighter;
-    font-size: 18px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .img {
     border-radius: 8px;
     height: auto;
+    width: 200px;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 200px;
 }
 
 /* Featured work styles */
