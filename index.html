@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" , intial-scale="1.0" />
     <title>Rob Benney's Portfolio</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="./assets/css/style.css" />
   </head>
   <body>
@@ -25,15 +26,15 @@
     </header>
 
     <!-- About Me Section -->
-    <section id="about-me">
+    <div id="about-me" class="container">
       <h2 class="section-title">About Me</h2>
       <div class="flexbox">
         <img
-          class="img"
+          class="img img-fluid rounded"
           src="./assets/images/Benney.jpeg"
           alt="Professional headshot of Rob Benney"
         />
-        <p>
+        <p class="text-center d-inline-block">
           Hello, My name is Rob Benney. I specialize in Front End Development.
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus
           minus velit, sequi perferendis magnam aliquam fugit necessitatibus
@@ -41,34 +42,25 @@
           ratione, accusantium totam a!
         </p>
       </div>
-    </section>
+    </div>
     <!-- Featured Work section -->
-    <section id="featured-work">
+    <div id="featured-work">
       <div>  
       <h2 class="section-title">Featured Work</h2>
-      <a href="https://Rbenney15.github.io/run-buddy/" class="link-text"
-        >Run Buddy Project</a
-      >
+      <a href="https://Rbenney15.github.io/run-buddy/" class="link-text">Run Buddy</a>
       <div class="featured-text">
         <div class="container">
           <img
-            class="second-image"
+            class="second-image img-fluid"
             src="./assets/images/Run-Buddy-Landing-Page.png"
             alt="Run Buddy Project"
           />
-          <div class="overlay">
-            <div class="text">Run Buddy</div>
-          </div>
-        </div>
         <div>
-          <a
-            href="https://github.com/samdakota/GWU_Project1.git"
-            class="link-text"
-            >Random Fact Generator</a>
+          <a href="https://github.com/samdakota/Random-Fact-Generator.git" class="link-text">Random Fact Generator</a>
           <div class="featured-text">
             <div class="container">
               <img
-                class="second-image"
+                class="second-image img fluid"
                 src="./assets/images/Random Fact Generator Landing Page.png"
                 alt="Random Fact Generator Category Selection"
                 />
@@ -77,11 +69,11 @@
         </div>
         </div>
       </div>
-    </section>
+    </div>
     <!-- Contact Information -->
-    <section id="contact-me" class="intro">
+    <div id="contact-me" class="intro">
       <h2 class="section-title">Contact Me</h2>
-      <div class="contact-info">
+      <div class="contact-info container">
         <address class="address">
           1234 Main Street Drive Road <br />
           Some Town, MD <br />
@@ -93,6 +85,10 @@
           >
         </address>
       </div>
-    </section>
+    </div>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
   </body>
 </html>
