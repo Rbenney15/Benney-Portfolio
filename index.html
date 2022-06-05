@@ -13,71 +13,53 @@
       <nav>
         <ul>
           <li>
-            <a href="#about-me">About Me</a>
+            <a href="#about-me"><button class="btn btn-dark">About Me</button></a>
           </li>
           <li>
-            <a href="#featured-work">Featured Work</a>
+            <a href="#featured-work"><button class="btn btn-dark">Featured Work</button></a>
           </li>
           <li>
-            <a href="#contact-me">Contact Me</a>
+            <a href="#contact-me"><button class="btn btn-dark">Contact Me</button></a>
           </li>
         </ul>
       </nav>
     </header>
 
     <!-- About Me Section -->
-    <div id="about-me" class="container">
-      <h2 class="section-title">About Me</h2>
-      <div class="flexbox">
+    <div id="about-me" class="card" style="width: 85rem;">
+      <h2 class="card-title text-center">About Me</h2>
+      <div class="card-body">
         <img
-          class="img img-fluid rounded"
+          class="img-thumbnail rounded"
           src="./assets/images/Benney.jpeg"
           alt="Professional headshot of Rob Benney"
         />
-        <p class="text-center d-inline-block">
-          Hello, my name is Rob. I'm an aspiring Web Developer. 
-          I am currenlty attending a Full Stack Development Boot Camp at
-          George Washington University.
+        <p class="card-text text-center d-inline-block">
+          Hello, my name is Rob. I'm an aspiring Web Developer. I am currenlty attending a Full Stack Development Boot Camp at George Washington University.
         </p>
       </div>
     </div>
     <!-- Featured Work section -->
-    <div id="featured-work">
-      <div>  
-      <h2 class="section-title">Featured Work</h2>
-      <a href="https://Rbenney15.github.io/run-buddy/" class="link-text">Run Buddy</a>
-      <div class="featured-text">
-        <div class="container">
+      <div class="card" style="width: 85rem;">
+      <h2 class="card-title text-center">Featured Work</h2>
+      <a href="https://Rbenney15.github.io/run-buddy/" class="btn btn-dark">Run Buddy</a>
           <img
-            class="second-image img-fluid"
+            class="img-thumbnail rounded"
             src="./assets/images/Run-Buddy-Landing-Page.png"
             alt="Run Buddy Project"
           />
-        <div>
-          <a href="https://github.com/samdakota/Random-Fact-Generator.git" class="link-text">Random Fact Generator</a>
-          <div class="featured-text">
-            <div class="container">
+          <a href="https://samdakota.github.io/Random-Fact-Generator/" class="link-text btn btn-dark">Random Fact Generator</a>
               <img
-                class="second-image img fluid"
+                class="img-thumbnail rounded"
                 src="./assets/images/Random Fact Generator Landing Page.png"
                 alt="Random Fact Generator Category Selection"
               />
-            <div>
-              <a href="https://github.com/Rbenney15/UpLift.git" class="link-text">UpLift</a>
-              <div class="featured-text">
-                <div class="container">
+              <a href="https://uplift-srb.herokuapp.com/login" class="link-text btn btn-dark">UpLift</a>
                   <img
-                  class="second-image img fluid"
-                  src=""
+                  class="img-thumbnail rounded"
+                  src="./assets/images/UpLift%20Dashboard.png"
                   alt="UpLift a Workout tracker application"
                   />
-                </div>
-              </div>
-            </div>  
-            </div>
-          </div>
-        </div>
-        </div>
       </div>
     </div>
     <!-- Contact Information -->

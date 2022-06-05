@@ -4,15 +4,15 @@ padding: 0;
 box-sizing: border-box;
 }
 
-body {
+/* body {
     background-color: #24135F;
     color: white;
-}
+} */
 
 /* Header styles start */
 header {
     padding: 20px 35px;
-    background-color: #24135F;
+    /* background-color: #24135F; */
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -21,13 +21,13 @@ header {
 header h1 {
     font-weight: bold;
     font-size: 40px;
-    color: #AD8900;
+    /* color: #AD8900; */
     margin: 0;
 }
 
 header a {
     text-decoration: none;
-    color: #AD8900;
+    /* color: #AD8900; */
 }
 
 header nav {
@@ -51,7 +51,7 @@ header nav ul li a {
 /* h2 styles */
 .intro {
     font-size: 25px;
-    color: #AD8900;
+    /* color: #AD8900; */
     font-weight: bold;
     text-align: left;
     padding: 20px 35px;
@@ -59,7 +59,7 @@ header nav ul li a {
 
 .section-title {
     font-size: 48px;
-    color: #AD8900;
+    /* color: #AD8900; */
     border-bottom: 3px solid;
     padding-bottom: 10px;
     text-align: center;
@@ -122,7 +122,7 @@ header nav ul li a {
     bottom: 100%;
     left: 0;
     right: 0;
-    background-color: black;
+    /* background-color: black; */
     overflow: hidden;
     width: 100%;
     height: 0;
@@ -136,7 +136,7 @@ header nav ul li a {
   
   .text {
     white-space: nowrap; 
-    color: #AD8900;
+    /* color: #AD8900; */
     font-size: 60px;
     position: absolute;
     overflow: hidden;
@@ -146,16 +146,16 @@ header nav ul li a {
     -ms-transform: translate(-50%, -50%);
 }
 .link-text {
-    color: #AD8900;
+    /* color: #AD8900; */
     text-decoration: none;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 /* Contact Me styles */
-.contact {
+/* .contact {
     background: #24135F;
-}
+} */
 
 .contact-info {
     display: flex;
@@ -173,6 +173,6 @@ justify-content: center;
 align-items: center;
 }
 
-.contact-info a {
+/* .contact-info a {
     color: white;
-}
+} */
