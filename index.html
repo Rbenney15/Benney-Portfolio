@@ -10,7 +10,7 @@
   <body>
     <header>
       <h1>Rob Benney's Portfolio</h1>
-      <nav>
+      <!-- <nav class="navbar navbar-dark bg-dark">
         <ul>
           <li>
             <a href="#about-me"><button class="btn btn-dark">About Me</button></a>
@@ -22,6 +22,11 @@
             <a href="#contact-me"><button class="btn btn-dark">Contact Me</button></a>
           </li>
         </ul>
+      </nav> -->
+      <nav class="navbar bg-secondary">
+        <a href="#about-me"><button class="btn btn-dark">About Me</button></a>
+        <a href="#featured-work"><button class="btn btn-dark">Featured Work</button></a>
+        <a href="#contact-me"><button class="btn btn-dark">Contact Me</button></a>
       </nav>
     </header>
 
@@ -40,40 +45,66 @@
       </div>
     </div>
     <!-- Featured Work section -->
-      <div class="card" style="width: 85rem;">
-      <h2 class="card-title text-center">Featured Work</h2>
-      <a href="https://Rbenney15.github.io/run-buddy/" class="btn btn-dark">Run Buddy</a>
-          <img
-            class="img-thumbnail rounded"
-            src="./assets/images/Run-Buddy-Landing-Page.png"
-            alt="Run Buddy Project"
-          />
-          <a href="https://samdakota.github.io/Random-Fact-Generator/" class="link-text btn btn-dark">Random Fact Generator</a>
-              <img
-                class="img-thumbnail rounded"
-                src="./assets/images/Random Fact Generator Landing Page.png"
-                alt="Random Fact Generator Category Selection"
-              />
-              <a href="https://uplift-srb.herokuapp.com/login" class="link-text btn btn-dark">UpLift</a>
-                  <img
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 mt-4">
+          <div class="card" style="width: 50rem;">
+            <div class="card__image-container">
+            <h2 class="card-title text-center">Featured Work</h2>
+            <a href="https://Rbenney15.github.io/run-buddy/" class="btn btn-dark">Run Buddy</a>
+                <img
                   class="img-thumbnail rounded"
-                  src="./assets/images/UpLift%20Dashboard.png"
-                  alt="UpLift a Workout tracker application"
-                  />
+                  src="./assets/images/Run-Buddy-Landing-Page.png"
+                  alt="Run Buddy Project"
+                />
+                <div class="row">
+                  <div class="col-md-4 mt-4">
+                    <div class="card" style="width: 50rem;">
+                      <div class="card__image-container">
+                        <a href="https://samdakota.github.io/Random-Fact-Generator/" class="link-text btn btn-dark">Random Fact Generator</a>
+                            <img
+                              class="img-thumbnail rounded"
+                              src="./assets/images/Random Fact Generator Landing Page.png"
+                              alt="Random Fact Generator Category Selection"
+                            />
+                    <div class="row">
+                      <div class="col-md-4 mt-4">
+                        <div class="card" style="width: 50rem;">
+                          <div class="card__image-container">
+                            <a href="https://uplift-srb.herokuapp.com/login" class="link-text btn btn-dark">UpLift</a>
+                                <img
+                                class="img-thumbnail rounded"
+                                src="./assets/images/UpLift%20Dashboard.png"
+                                alt="UpLift a Workout tracker application"
+                                />
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>  
+            </div>
+          </div>
+        </div>
       </div>
     </div>
     <!-- Contact Information -->
     <div id="contact-me" class="intro">
       <h2 class="section-title">Contact Me</h2>
       <div class="contact-info container">
+        <!-- resume (PDF) button, linkedin button, Github button, email button, IG button -->
         <address class="address">
           1234 Main Street Drive Road <br />
           Some Town, MD <br />
           12345<br />
           P: <a href="tell:555.555.5555">(555) 555 - 5555</a> <br />
           E:
-          <a href="mailto:webdevportfolio@portfolio.com"
-            >webdevportfolio@portfolio.com</a
+          <a href="mailto:rob.benney@gmail.com"
+            >Email Me</a
           >
         </address>
       </div>
