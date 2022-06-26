@@ -31,52 +31,81 @@
     </header>
 
     <!-- About Me Section -->
-    <div id="about-me" class="card" style="width: 85rem;">
+  <div class="container">
+    <div id="about-me" class="card" style="width: 60rem;">
       <h2 class="card-title text-center">About Me</h2>
       <div class="card-body">
         <img
+          width="250"
           class="img-thumbnail rounded"
           src="./assets/images/Benney.jpeg"
           alt="Professional headshot of Rob Benney"
         />
-        <p class="card-text text-center d-inline-block">
-          Hello, my name is Rob. I'm an aspiring Web Developer. I am currenlty attending a Full Stack Development Boot Camp at George Washington University.
+        <p class="card-text text-center">
+          Hello, my name is Rob. I'm an aspiring Front End Developer. Recently earned a certificate in full stack development from George Washington University, with newly developed skills in JavaScript, CSS, React.js, and responsive web design. I am currenlty attending a Full Stack Development Boot Camp at George Washington University.
         </p>
       </div>
     </div>
+  </div>
     <!-- Featured Work section -->
+    <!-- Project format:
+      brief descriptions
+      technologies used
+      screenshots
+      links to Github and deployed app-->
     <div class="container">
       <div class="row">
         <div class="col-md-4 mt-4">
-          <div class="card" style="width: 50rem;">
+          <div class="card" style="width: 60rem;">
             <div class="card__image-container">
             <h2 class="card-title text-center">Featured Work</h2>
-            <a href="https://Rbenney15.github.io/run-buddy/" class="btn btn-dark">Run Buddy</a>
+            <a href="" class="btn btn-dark">Note Taker</a>
                 <img
+                  width="400" 
                   class="img-thumbnail rounded"
-                  src="./assets/images/Run-Buddy-Landing-Page.png"
-                  alt="Run Buddy Project"
+                  src="https://user-images.githubusercontent.com/98703735/167319621-1c153292-12ac-42b1-ba84-8a918066c6e2.png"
+                  alt="Note Taker Homepage"
                 />
+                <p>
+                  Description: This application is a Note Taker application. Allows the user to make notes for future reference. The user has the ability to save the notes for later and also delete the notes once they have completed them.              
+                  Technologies used:
+                  GitHub Repo:
+                  Deployed: 
+                </p>
                 <div class="row">
                   <div class="col-md-4 mt-4">
-                    <div class="card" style="width: 50rem;">
+                    <div class="card" style="width: 60rem;">
                       <div class="card__image-container">
                         <a href="https://samdakota.github.io/Random-Fact-Generator/" class="link-text btn btn-dark">Random Fact Generator</a>
                             <img
+                              width="400"
                               class="img-thumbnail rounded"
                               src="./assets/images/Random Fact Generator Landing Page.png"
                               alt="Random Fact Generator Category Selection"
                             />
+                            <p>
+                              Description: This applications is a Random Fact Generator. Allows users to select from available fact categories to get a randomly generated fact from that category. 
+                              Technologies used:
+                              GitHub Repo:
+                              Deployed:
+                            </p>
                     <div class="row">
                       <div class="col-md-4 mt-4">
-                        <div class="card" style="width: 50rem;">
+                        <div class="card" style="width: 60rem;">
                           <div class="card__image-container">
                             <a href="https://uplift-srb.herokuapp.com/login" class="link-text btn btn-dark">UpLift</a>
                                 <img
+                                width="400"
                                 class="img-thumbnail rounded"
                                 src="./assets/images/UpLift%20Dashboard.png"
                                 alt="UpLift a Workout tracker application"
                                 />
+                                <p>
+                                  Description: This is a Fitness Tracker application that allows users to join a like minded community to track and share workouts. 
+                                  Technologies used:
+                                  GitHub Repo:
+                                  Deployed:
+                                </p>
                               </div>
                             </div>
                           </div>
@@ -92,24 +121,40 @@
         </div>
       </div>
     </div>
-    <!-- Contact Information -->
-    <div id="contact-me" class="intro">
-      <h2 class="section-title">Contact Me</h2>
+<!-- Contact Information -->
+<!-- Contact section format:
+      email address
+      phone number
+      github link
+      linkedin link -->
+  <div id="contact-me" class="card" style="width: 85rem;">
+      <h2 class="card-title text-center">Contact Me</h2>
+    <div class="card-body">
       <div class="contact-info container">
-        <!-- resume (PDF) button, linkedin button, Github button, email button, IG button -->
+        <!-- resume (PDF) button, linkedin button, Github button, email button-->
+        <!-- Github -->
+        <a class="btn btn-primary" style="background-color: #333333;" href="https://github.com/Rbenney15" role="button"
+        ><i class="fab fa-github">GitHub</i
+        ></a>
+        <!-- Linkedin -->
+        <a class="btn btn-primary" style="background-color: #0082ca;" href="https://www.linkedin.com/in/robert-benney/" role="button"
+        ><i class="fab fa-linkedin-in">Linked-In</i
+        ></a>
+          <!-- Google -->
+        <a class="btn btn-primary" style="background-color: #dd4b39;" href="mailto:rob.benney@gmail.com" role="button"
+        ><i class="fab fa-google">Gmail</i
+        ></a>
+        <!-- Whatsapp -->
+        <a class="btn btn-primary" style="background-color: #25d366;" href="443.668.0121" role="button"
+          ><i class="fab fa-whatsapp">Call Me</i
+        ></a>
+
         <address class="address">
-          1234 Main Street Drive Road <br />
-          Some Town, MD <br />
-          12345<br />
-          P: <a href="tell:555.555.5555">(555) 555 - 5555</a> <br />
-          E:
-          <a href="mailto:rob.benney@gmail.com"
-            >Email Me</a
-          >
+          Baltimore, MD<br />
         </address>
       </div>
     </div>
-
+  </div>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
